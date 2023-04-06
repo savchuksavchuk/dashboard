@@ -13,9 +13,9 @@ export const ContextProvider = ({ children }) => {
     const body = document.querySelector('.body');
 
     if (sidebarOpened) {
-      body.classList.add(".body--with-menu");
+      body.classList.add("body--with-menu");
     } else {
-      body.classList.remove(".body--with-menu");
+      body.classList.remove("body--with-menu");
     }
   }, [sidebarOpened])
 
