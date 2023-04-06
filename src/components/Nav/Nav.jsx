@@ -6,22 +6,22 @@ export const Nav = () => {
     <nav className="nav">
       <ul className="nav__list">
         <li className="nav__item">
-          <MenuLink to="/" defIcon="/assets/key.svg" activeIcon="/assets/key-white.svg" name="Dashboard" />
+          <MenuLink to="/" defIcon="./assets/key.svg" activeIcon="/assets/key-white.svg" name="Dashboard" />
         </li>
         <li className="nav__item">
-          <MenuLink to="/" defIcon="/assets/square.svg" activeIcon="/assets/square-white.svg" name="Product" />
+          <MenuLink to="/" defIcon="./assets/square.svg" activeIcon="/assets/square-white.svg" name="Product" />
         </li>
         <li className="nav__item">
-          <MenuLink to="/" defIcon="/assets/user.svg" activeIcon="/assets/user-white.svg" name="Customers" selected />
+          <MenuLink to="/" defIcon="./assets/user.svg" activeIcon="/assets/user-white.svg" name="Customers" selected />
         </li>
         <li className="nav__item">
-          <MenuLink to="/" defIcon="/assets/wallet.svg" activeIcon="/assets/wallet-white.svg" name="Income" />
+          <MenuLink to="/" defIcon="./assets/wallet.svg" activeIcon="/assets/wallet-white.svg" name="Income" />
         </li>
         <li className="nav__item">
-          <MenuLink to="/" defIcon="/assets/discount.svg" activeIcon="/assets/discount-white.svg" name="Promote" />
+          <MenuLink to="/" defIcon="./assets/discount.svg" activeIcon="/assets/discount-white.svg" name="Promote" />
         </li>
         <li className="nav__item">
-          <MenuLink to="/" defIcon="/assets/message.svg" activeIcon="/assets/message-white.svg" name="Help" />
+          <MenuLink to="/" defIcon="./assets/message.svg" activeIcon="/assets/message-white.svg" name="Help" />
         </li>
       </ul>
     </nav>

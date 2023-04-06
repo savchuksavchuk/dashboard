@@ -7,7 +7,7 @@ export const Search = ({ onSearch }) => {
 
   return (
     <label className="search">
-      <img src="/assets/search.svg" alt="search" />
+      <img src="./assets/search.svg" alt="search" />
       <input
         type="search"
         className="search__input"

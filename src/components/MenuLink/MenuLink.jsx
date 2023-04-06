@@ -24,9 +24,9 @@ export const MenuLink = ({
       />
       <span className="menuLink__text">{name}</span>
       {selected ? (
-        <img src="/assets/chevron-right-white.svg" alt="arrow" className="menuLink__chevrone"/>
+        <img src="./assets/chevron-right-white.svg" alt="arrow" className="menuLink__chevrone"/>
       ) : (
-        <img src="/assets/chevron-right.svg" alt="arrow" className="menuLink__chevrone"/>
+        <img src="./assets/chevron-right.svg" alt="arrow" className="menuLink__chevrone"/>
       )}
     </a>
   );
