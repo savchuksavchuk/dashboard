@@ -1,0 +1,17 @@
+@import '../../styles/_utils/mixins';
+
+.topbar {
+  display: flex;
+  height: 115px;
+  align-items: center;
+
+  @include tablet {
+    height: 75px;
+  }
+
+  &__greeating {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+  }
+}

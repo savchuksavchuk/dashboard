@@ -1,0 +1,86 @@
+@import "../../styles/_utils/mixins";
+
+.customersTable {
+  width: 100%;
+  text-align: left;
+  border-left: 38px solid transparent;
+  border-right: 38px solid transparent;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.01em;
+
+  @include tablet {
+    font-size: 12px;
+    border-left: 14px solid transparent;
+    border-right: 14px solid transparent;
+  }
+
+  @include mobile {
+    font-size: 9px;
+    border-left: 9px solid transparent;
+    border-right: 9px solid transparent;
+  }
+
+  @include small-mobile {
+    font-size: 12px;
+  }
+
+  &__heading {
+    border-bottom: 1px solid #eeeeee;
+
+    @include mobile {
+      display: none;
+    }
+  }
+
+  &__title {
+    color: #b5b7c0;
+    padding: 14px 0;
+  }
+
+  &__row {
+    border-bottom: 1px solid #eeeeee;
+
+    @include small-mobile {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  &__item {
+    padding: 20px 0;
+
+    @include tablet {
+      padding: 10px 0;
+    }
+
+    @include small-mobile {
+      padding: 5px 0;
+    }
+  }
+
+  &__status {
+    &--active {
+      display: block;
+      max-width: 73px;
+      border-radius: 4px;
+      background: rgba(22, 192, 152, 0.38);
+      border: 1px solid #00b087;
+      padding: 4px;
+      text-align: center;
+      color: #008767;
+    }
+
+    &--inactive {
+      display: block;
+      border-radius: 4px;
+      background: #ffc5c5;
+      border: 1px solid #df0404;
+      padding: 4px;
+      text-align: center;
+      color: #df0404;
+      max-width: 73px;
+    }
+  }
+}

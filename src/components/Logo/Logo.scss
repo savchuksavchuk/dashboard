@@ -1,0 +1,29 @@
+@import '../../styles/_utils/mixins';
+
+.logo {
+  display: flex;
+  align-items: center;
+
+  @include small-desktop {
+    flex-direction: column;
+  }
+
+  &__name {
+    font-weight: 600;
+    font-size: 26px;
+    letter-spacing: 0.01em;
+    margin-left: 8px;
+
+    @include tablet {
+      display: none;
+    }
+  }
+
+  &__version {
+    font-weight: 500;
+    font-size: 10px;
+    color: #838383;
+    letter-spacing: -0.01em;
+    margin-left: 4px;
+  }
+}

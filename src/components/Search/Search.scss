@@ -1,0 +1,29 @@
+.search {
+  background-color: #f9fbff;
+  padding: 8px;
+  border-radius: 10px;
+  cursor: text;
+  display: flex;
+  align-items: center;
+
+  &:has(input:focus) {
+    outline: 1px solid #EEEEEE;
+  }
+
+  &__input {
+    background-color: inherit;
+    border: none;
+    margin-left: 8px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: -0.01em;
+
+    &::placeholder {
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 18px;
+      color: #b5b7c0;
+    }
+  }
+}

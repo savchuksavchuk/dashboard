@@ -1,0 +1,36 @@
+@import "../../styles/_utils/mixins";
+
+.user {
+  display: flex;
+
+  &__photo {
+    width: 42px;
+    height: 42px;
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    letter-spacing: 0.01em;
+    margin-left: 12px;
+
+    @include tablet {
+      display: none;
+    }
+  }
+
+  &__name {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+  }
+
+  &__position {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    line-height: 21px;
+    color: #757575;
+  }
+}

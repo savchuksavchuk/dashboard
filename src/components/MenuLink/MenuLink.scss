@@ -1,0 +1,37 @@
+@import "../../styles/_utils/mixins";
+
+$primary: #9197b3;
+$active-text: #fff;
+$active-background: #5932ea;
+
+.menuLink {
+  color: $primary;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 250px;
+  padding: 11px;
+  border-radius: 8px;
+
+  &__text {
+    color: inherit;
+    margin-left: 14px;
+    flex-grow: 1;
+
+    @include tablet {
+      display: none;
+    }
+  }
+
+  &--active {
+    background-color: $active-background;
+    color: $active-text;
+  }
+
+  &__chevrone {
+    @include tablet {
+      display: none;
+    }
+  }
+}
