@@ -7,7 +7,7 @@ export const ContextProvider = ({ children }) => {
 
   const toggleSidebar = () => {
     setSidebarOpened(!sidebarOpened);
-  }
+  };
 
   const value = {
     sidebarOpened,

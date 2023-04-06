@@ -20,9 +20,7 @@ export const Pagination = () => {
       <button type="button" className="pagination__item">
         4
       </button>
-      <span className="pagination__item pagination__item--dots">
-        ...
-      </span>
+      <span className="pagination__item pagination__item--dots">...</span>
       <button type="button" className="pagination__item">
         40
       </button>

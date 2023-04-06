@@ -2,7 +2,6 @@ import "./Search.scss";
 import debounce from "lodash.debounce";
 
 export const Search = ({ onSearch }) => {
-
   const debouncedOnSearch = debounce(onSearch, 400);
 
   return (

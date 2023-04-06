@@ -1,4 +1,4 @@
-@import '../../styles/_utils/mixins';
+@import "../../styles/_utils/mixins";
 
 .topbar {
   display: flex;
@@ -18,7 +18,7 @@
 
   &__burger {
     display: none;
-    
+
     @include mobile {
       display: block;
     }
