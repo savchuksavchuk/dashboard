@@ -1,2 +1,8 @@
 @import "../node_modules/scss-reset/src/scss/_reset.scss";
 @import "./styles/_utils/fonts";
+
+.body {
+  &--with-menu {
+    overflow: hidden;
+  }
+}
