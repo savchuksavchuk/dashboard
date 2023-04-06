@@ -12,6 +12,19 @@
     padding: 36px 14px 76px;
   }
 
+  &__topbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__close {
+    display: none;
+    @include mobile {
+      display: block;
+    }
+  }
+
   &__nav {
     margin-top: 64px;
     flex-grow: 1;

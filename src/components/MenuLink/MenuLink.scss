@@ -22,6 +22,10 @@ $active-background: #5932ea;
     @include tablet {
       display: none;
     }
+
+    @include mobile {
+      display: block;
+    }
   }
 
   &--active {
@@ -32,6 +36,9 @@ $active-background: #5932ea;
   &__chevrone {
     @include tablet {
       display: none;
+    }
+    @include mobile {
+      display: inline-block;
     }
   }
 }

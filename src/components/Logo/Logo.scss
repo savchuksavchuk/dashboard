@@ -8,6 +8,10 @@
     flex-direction: column;
   }
 
+  @include mobile {
+    flex-direction: row;
+  }
+
   &__name {
     font-weight: 600;
     font-size: 26px;
@@ -16,6 +20,10 @@
 
     @include tablet {
       display: none;
+    }
+
+    @include mobile {
+      display: block;
     }
   }
 

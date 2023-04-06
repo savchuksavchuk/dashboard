@@ -17,6 +17,10 @@
     @include tablet {
       display: none;
     }
+
+    @include mobile {
+      display: flex;
+    }
   }
 
   &__name {
